@@ -283,10 +283,10 @@
         private System.Windows.Forms.Label FirstNameLabel;
         private System.Windows.Forms.ListBox FirstNameListBox;
         private System.Windows.Forms.Label LastNameLabel2;
-        private System.Windows.Forms.TextBox LastNameTextBox;
         private System.Windows.Forms.Label FirstNameLabel2;
-        private System.Windows.Forms.TextBox FirstNameTextBox;
         protected System.Windows.Forms.Button NextButton;
         protected System.Windows.Forms.Button GenerateButton;
+        public System.Windows.Forms.TextBox LastNameTextBox;
+        public System.Windows.Forms.TextBox FirstNameTextBox;
     }
 }

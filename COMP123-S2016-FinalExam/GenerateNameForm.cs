@@ -28,6 +28,7 @@ namespace COMP123_S2016_FinalExam
      */
     public partial class GenerateNameForm : Form
     {
+        
         //CONSTRUCTOR+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         /**
         * <summary>
@@ -63,6 +64,9 @@ namespace COMP123_S2016_FinalExam
             FirstNameTextBox.Text = FirstNameListBox.Text;
             LastNameTextBox.Text = LastNameListBox.Text;
 
+
+            Program.character.FirstName = FirstNameTextBox.Text;
+            Program.character.LastName = LastNameTextBox.Text;
         }
                 /**
        * <summary>

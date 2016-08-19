@@ -49,15 +49,21 @@ namespace COMP123_S2016_FinalExam
             RadioButton selectedRace = (RadioButton)sender;
 
             this._selectedRace = selectedRace.Text;
+
         }
 
         private void NextButton_Click(object sender, EventArgs e)
         {
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
-
+ 
             finalForm.Show();
             this.Hide();
+        }
+
+        private void RaceAndClassForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
