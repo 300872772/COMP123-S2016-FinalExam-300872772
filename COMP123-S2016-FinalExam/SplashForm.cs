@@ -48,7 +48,17 @@ namespace COMP123_S2016_FinalExam
        */
         private void SplashTimer_Tick(object sender, EventArgs e)
         {
+            SplashProgressBar.PerformStep();
+            if (SplashProgressBar.Value >= SplashProgressBar.Maximum)
+            {
+                SplashTimer.Enabled = false;
 
+                this.Hide();
+                GenerateNameForm generateNameForm = new GenerateNameForm();
+                generateNameForm.Show();
+
+
+            }
 
         }
     }
