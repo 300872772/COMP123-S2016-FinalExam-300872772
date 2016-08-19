@@ -41,10 +41,10 @@
             // 
             // SplashProgressBar
             // 
-            this.SplashProgressBar.Location = new System.Drawing.Point(268, 221);
+            this.SplashProgressBar.Location = new System.Drawing.Point(321, 175);
             this.SplashProgressBar.Maximum = 30;
             this.SplashProgressBar.Name = "SplashProgressBar";
-            this.SplashProgressBar.Size = new System.Drawing.Size(320, 23);
+            this.SplashProgressBar.Size = new System.Drawing.Size(226, 23);
             this.SplashProgressBar.Step = 1;
             this.SplashProgressBar.TabIndex = 0;
             // 
